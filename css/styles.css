@@ -1,0 +1,65 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+div {
+  border: 1px solid black;
+  padding: 10px;
+  float: left;
+}
+
+#p1 {
+  background-color: #A52A2A;
+  width: 100%;
+}
+#p2 {
+  background-color: #DEB887;
+  width: 100%;
+}
+#p3 {
+  background-color: #A52A2A;
+  width: 100%;
+}
+
+#p4 {
+  background-color: #A52A2A;
+  width: 10%;
+  float: top left;
+}
+
+
+/********** Desktop version **********/
+@media (min-width: 992px) {
+  #p1 {
+    background-color: #A52A2A;
+    width: 33%;
+  }
+  #p2 {
+    background-color: #DEB887;
+    width: 33%;
+  }
+  #p3 {
+    background-color: #A52A2A;
+    width: 33%;
+  }
+}
+
+/********** Tablet version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+    background-color: #A52A2A;
+    width: 50%;
+  }
+  #p2 {
+    background-color: #DEB887;
+    width: 50%;
+  }
+  #p3 {
+    background-color: #A52A2A;
+    width: 100%;
+  }
+}
